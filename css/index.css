@@ -1,0 +1,134 @@
+@charset 'utf-8';
+
+/* background opacity */
+.glitch {
+    opacity: 0.7;
+}
+
+/* icon .. */
+.icon-container {
+    width: 1400px;
+    height: 800px;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
+}
+
+.icon-container>a>div {
+    width: 90px;
+    height: 90px;
+    position: relative;
+}
+
+.icon-container>a>div p {
+    position: relative;
+    margin: 0 auto;
+    top: 95px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.icon-1 {
+    top: 200px;
+    left: 500px;
+    background: url(https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-notebook.png);
+    background-size: cover;
+
+}
+
+.icon-2 {
+    top: 200px;
+    left: 1020px;
+    background: url(https://cdn3.iconfinder.com/data/icons/nx11/Internet%20-%20Real.png);
+    background-size: cover;
+}
+
+.icon-3 {
+    top: 200px;
+    left: 380px;
+    background: url(https://cdn3.iconfinder.com/data/icons/nx11/Internet%20-%20Real.png);
+    background-size: cover;
+}
+
+.icon-4 {
+    top: 50px;
+    left: 700px;
+    background: url(https://cdn3.iconfinder.com/data/icons/nx11/Internet%20-%20Real.png);
+    background-size: contain;
+}
+
+.icon-5 {
+    top: 0px;
+    left: 900px;
+    background: url(https://cdn4.iconfinder.com/data/icons/meBaze-Freebies/512/mail.png);
+
+    background-size: contain;
+}
+
+.icon-6 {
+    top: 0px;
+    left: 100px;
+    background: url(https://cdn0.iconfinder.com/data/icons/icons-unleashed-vol1/256/-camera.png);
+    background-size: contain;
+}
+
+
+/* mobile .. */
+@media all and (max-width:767px) {
+
+    .navbar,
+    .instagram {
+        position: fixed;
+        z-index: 1;
+    }
+
+    /* icon start .. */
+    .icon-container {
+        width: 330px;
+        height: 600px;
+    }
+
+    .icon-container>a>div {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-container>a>div p {
+        width: 70px;
+        top: 70px;
+        font-size: 12px;
+    }
+
+    .icon-1 {
+        top: 20px;
+        left: 35px;
+        line-height: 12px;
+    }
+
+    .icon-2 {
+        top: 30px;
+        left: 190px;
+    }
+
+    .icon-3 {
+        top: 50px;
+        left: 130px;
+    }
+
+    .icon-4 {
+        top: 20px;
+        left: 10px;
+    }
+
+    .icon-5 {
+        top: 180px;
+        left: 30px;
+    }
+
+    .icon-6 {
+        top: 0px;
+        left: 230px;
+    }
+}

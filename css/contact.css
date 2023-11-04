@@ -1,0 +1,71 @@
+@charset 'utf-8';
+
+/* background opacity */
+.glitch {
+    /* --glitch-bg-image: url(https://images.unsplash.com/photo-1567780664226-57248239cec1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1366&q=80); */
+    opacity: 0.7;
+}
+
+/* category title */
+.title {
+    width: 170px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+}
+
+.title h1 {
+    font-family: 'Moirai One', cursive;
+    font-size: 30px;
+}
+
+/* email */
+.contact-contain {
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+.email p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 2px;
+    opacity: 0.5;
+    color: #fff;
+}
+
+/* mobile */
+@media all and (max-width:767px) {
+    
+/* navbar, insta 상위 고정 */
+    .navbar,
+    .instagram {
+        position: fixed;
+        z-index: 1;
+    }
+
+    /* title */
+    .title h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* email */
+    .contact-contain {
+        position: relative;
+        top: 150px;
+        width: 330px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .email p {
+        font-size: 13px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
